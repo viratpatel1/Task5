@@ -1,0 +1,117 @@
+Problem 0 : Part A (15 mins):
+
+A)var cat = {
+     name: 'Fluffy',
+     activities: ['play','eat cat food'],
+      weight: 8,
+      height: 3,
+     catFriend1: 
+             {
+             name: 'bar',
+             activities: ['be grumpy', 'eat bread omblet'],
+             weight: 8,
+             furcolor: 'white'
+             }, 
+     catFriend2:        {
+             name: 'foo',
+             activities: ['sleep', 'pre-sleep naps'],
+             weight: 3
+             }
+    };
+cat.name = 'Fluffyy';
+console.log(cat.name);
+console.log(cat.catFriend1.name,cat.catFriend2.name);     
+console.log(cat.catFriend1.weight + cat.catFriend2.weight);
+console.log(cat.activities,cat.catFriend1.activities,cat.catFriend2.activities);
+cat.catFriend1.activities.push('Running');
+cat.catFriend2.activities.push('Playing');
+console.log(cat.catFriend1.activities,cat.catFriend2.activities);
+cat.catFriend1.furcolor = "Black";
+console.log(cat.catFriend1.furcolor);
+
+
+
+Problem 0 : Part B (15 mins):
+
+var myCar = {
+ make: 'Bugatti',
+ model: 'Bugatti La Voiture Noire',
+ year: 2019,
+ accidents1:
+         {
+         date: '3/15/2019',
+         damage_points: '5000',
+         atFaultForAccident: true
+         },
+accidents2:{
+         date: '7/4/2022',
+         damage_points: '2200',
+         atFaultForAccident: true
+         },
+accidents3:{
+         date: '6/22/2021',
+         damage_points: '7900',
+         atFaultForAccident: true
+         }
+};
+
+myCar.accidents1.atFaultForAccident = false;
+myCar.accidents2.atFaultForAccident = false;
+myCar.accidents3.atFaultForAccident = false;
+console.log(myCar.accidents1.atFaultForAccident,myCar.accidents2.atFaultForAccident,myCar.accidents3.atFaultForAccident);
+
+
+
+Problem 1 (5 mins):
+
+function printAllValues(obj) {
+ // your code here
+    obj = {
+    name :"RajiniKanth", age : 33, hasPets : false
+    };
+    console.log(Object.values(obj));
+}
+printAllValues();
+
+
+Problem 2(5 mins):
+
+function printAllKeys(obj) {
+ // your code here
+    obj = {
+    name :"RajiniKanth", age : 33, hasPets : false
+    };
+    console.log(Object.keys(obj));
+}
+printAllKeys();
+
+
+Problem 3( 7–9 mins):
+
+function convertListToObject(obj) {
+ // your code here
+ obj = {name:'ISRO', age: 35, role: 'Scientist'};
+ console.log(Object.entries(obj));
+}
+convertListToObject();
+
+
+Problem 4( 5 mins):
+
+var arr = ['GUVI', 'I', 'am', 'Geek'];
+function transformFirstAndLast(arr) {
+  var newObject = {};
+  newObject[arr[0]] = arr[arr.length - 1];
+ return newObject;
+}
+console.log(transformFirstAndLast(arr));
+
+
+Problem 5 ( 7 -9 mins):
+
+
+
+
+
+
+
